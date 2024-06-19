@@ -18,7 +18,7 @@ public class Product {
     @Column(nullable = false)
     private String description;
     @Column(nullable = false)
-    private Float prize;
+    private Float price;
     private Long stockSize;
     @CreationTimestamp
     @Column(updatable = false, name = "created_at")
@@ -56,12 +56,12 @@ public class Product {
         this.description = description;
     }
 
-    public Float getPrize() {
-        return prize;
+    public Float getPrice() {
+        return price;
     }
 
-    public void setPrize(Float prize) {
-        this.prize = prize;
+    public void setPrice(Float prize) {
+        this.price = prize;
     }
 
     public Long getStockSize() {

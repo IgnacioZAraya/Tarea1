@@ -41,7 +41,7 @@ public class ProductRestController {
                 .map(existingProduct -> {
                     existingProduct.setName(product.getName());
                     existingProduct.setDescription(product.getDescription());
-                    existingProduct.setPrize(product.getPrize());
+                    existingProduct.setPrice(product.getPrice());
                     existingProduct.setStockSize(product.getStockSize());
                     existingProduct.setCategory(product.getCategory());
                     return ProductRepository.save(existingProduct);
