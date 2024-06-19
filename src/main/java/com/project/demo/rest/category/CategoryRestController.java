@@ -26,12 +26,12 @@ public class CategoryRestController {
     }
 
     @GetMapping("/{id}")
-    public Category getProductById(@PathVariable Long id) {
+    public Category getCategoryById(@PathVariable Long id) {
         return CategoryRepsository.findById(id).orElseThrow(RuntimeException::new);
     }
 
     @GetMapping("/filterByCharacter/{name}")
-    public List<Category> getUserByCharacter(@PathVariable String name) {
+    public List<Category> getCategoryByCharacter(@PathVariable String name) {
         return CategoryRepsository.findCategoriesWithCharacterInName(name);
     }
 

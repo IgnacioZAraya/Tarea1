@@ -30,7 +30,7 @@ public class ProductRestController {
     }
 
     @GetMapping("/filterByCharacter/{name}")
-    public List<Product> getUserByCharacter(@PathVariable String name) {
+    public List<Product> getProductByCharacter(@PathVariable String name) {
         return ProductRepository.findProductsWithCharacterInName(name);
     }
 

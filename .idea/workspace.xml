@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b91fdb0-1ed0-477a-b5c9-e0170b81ad28" name="Changes" comment="" />
+    <list default="true" id="2b91fdb0-1ed0-477a-b5c9-e0170b81ad28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/category/CategoryRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/category/CategoryRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/product/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/product/ProductRestController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +110,7 @@
       <workItem from="1718698574638" duration="616000" />
       <workItem from="1718767900190" duration="653000" />
       <workItem from="1718822621639" duration="8603000" />
-      <workItem from="1718833340572" duration="384000" />
+      <workItem from="1718833340572" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="Product Object">
       <option name="closed" value="true" />
@@ -189,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718833397056</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Role enum and seeders fix + category and product controller modification">
+      <option name="closed" value="true" />
+      <created>1718833955092</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718833955092</updated>
+    </task>
+    <task id="LOCAL-00012" summary="category controller fix">
+      <option name="closed" value="true" />
+      <created>1718834000563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718834000563</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +236,8 @@
     <MESSAGE value="Files" />
     <MESSAGE value="Category" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Role enum and seeders fix + category and product controller modification" />
+    <MESSAGE value="category controller fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="category controller fix" />
   </component>
 </project>
