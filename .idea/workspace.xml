@@ -41,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="CategoryCRUD" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "UserCRUD",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "E:/Cenfotec/7 Cuatri/Proyecto 3/RESTAPICLASE",
     "node.js.detected.package.eslint": "true",
@@ -106,6 +107,7 @@
       <workItem from="1718698574638" duration="616000" />
       <workItem from="1718767900190" duration="653000" />
       <workItem from="1718822621639" duration="8603000" />
+      <workItem from="1718833340572" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="Product Object">
       <option name="closed" value="true" />
@@ -179,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718833139761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1718833397056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718833397056</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
     <MESSAGE value="Category Controller" />
     <MESSAGE value="Files" />
     <MESSAGE value="Category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
 </project>

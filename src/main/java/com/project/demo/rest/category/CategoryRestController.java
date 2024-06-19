@@ -30,7 +30,7 @@ public class CategoryRestController {
         return CategoryRepsository.findById(id).orElseThrow(RuntimeException::new);
     }
 
-    @GetMapping("/filterByName/{name}")
+    @GetMapping("/filterByCharacter/{name}")
     public List<Category> getUserByCharacter(@PathVariable String name) {
         return CategoryRepsository.findCategoriesWithCharacterInName(name);
     }

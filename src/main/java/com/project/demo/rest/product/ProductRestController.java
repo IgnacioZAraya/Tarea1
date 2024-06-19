@@ -29,7 +29,7 @@ public class ProductRestController {
         return ProductRepository.findById(id).orElseThrow(RuntimeException::new);
     }
 
-    @GetMapping("/filterByName/{name}")
+    @GetMapping("/filterByCharacter/{name}")
     public List<Product> getUserByCharacter(@PathVariable String name) {
         return ProductRepository.findProductsWithCharacterInName(name);
     }
