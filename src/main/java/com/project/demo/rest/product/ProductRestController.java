@@ -15,7 +15,7 @@ public class ProductRestController {
     private ProductRepository ProductRepository;
 
     @GetMapping
-    @PreAuthorize("hasAnyRole('ADMIN', 'SUPER_ADMIN')")
+    @PreAuthorize("hasAnyRole('USER', 'SUPER_ADMIN')")
     public List<Product> getAllProducts() {return ProductRepository.findAll();}
 
     @PostMapping

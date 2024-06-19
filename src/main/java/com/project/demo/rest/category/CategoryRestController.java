@@ -16,7 +16,7 @@ public class CategoryRestController {
     private CategoryRepsository CategoryRepsository;
 
     @GetMapping
-    @PreAuthorize("hasAnyRole('ADMIN', 'SUPER_ADMIN')")
+    @PreAuthorize("hasAnyRole('USER', 'SUPER_ADMIN')")
     public List<Category> getAllCategories() {return CategoryRepsository.findAll();}
 
     @PostMapping
