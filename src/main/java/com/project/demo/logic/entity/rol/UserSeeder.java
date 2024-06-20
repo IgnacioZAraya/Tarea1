@@ -1,0 +1,56 @@
+package com.project.demo.logic.entity.rol;
+
+import com.project.demo.logic.entity.user.User;
+import com.project.demo.logic.entity.user.UserRepository;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import java.util.Optional;
+
+public class UserSeeder implements ApplicationListener<ContextRefreshedEvent> {
+    private final RoleRepository roleRepository;
+    private final UserRepository userRepository;
+
+    private final PasswordEncoder passwordEncoder;
+
+
+    public UserSeeder(
+            RoleRepository roleRepository,
+            UserRepository  userRepository,
+            PasswordEncoder passwordEncoder
+    ) {
+        this.roleRepository = roleRepository;
+        this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
+    }
+
+    @Override
+    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
+        this.createUser();
+    }
+
+    private void createUser() {
+        User basicUser = new User();
+        basicUser.setName("User");
+        basicUser.setLastname("Base");
+        basicUser.setEmail("user.base@gmail.com");
+        basicUser.setPassword("basicuser123");
+
+        Optional<Role> optionalRole = roleRepository.findByName(RoleEnum.USER);
+        Optional<User> optionalUser = userRepository.findByEmail(basicUser.getEmail());
+
+        if (optionalRole.isEmpty() || optionalUser.isPresent()) {
+            return;
+        }
+
+        var user = new User();
+        user.setName(user.getName());
+        user.setLastname(user.getLastname());
+        user.setEmail(user.getEmail());
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.setRole(optionalRole.get());
+
+        userRepository.save(user);
+    }
+}

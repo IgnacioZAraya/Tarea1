@@ -39,7 +39,7 @@ public class User implements UserDetails {
         return List.of(authority);
     }
 
-    @OneToOne(cascade = CascadeType.REMOVE)
+    @OneToOne(cascade = CascadeType.REMOVE) //Remind DEIBI!!!!!!!!!!!!!!
     @JoinColumn(name = "role_id", referencedColumnName = "id", nullable = false)
     private Role role;
 
