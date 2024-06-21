@@ -30,7 +30,9 @@ public class Product {
     @JoinColumn(name = "category_id", referencedColumnName = "id", nullable = false)
     private Category category;
 
-    public Product() {}
+    public Product() {
+
+    }
 
     public Long getId() {
         return id;
