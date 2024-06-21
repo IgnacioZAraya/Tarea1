@@ -5,9 +5,11 @@ import com.project.demo.logic.entity.user.UserRepository;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+@Component
 public class UserSeeder implements ApplicationListener<ContextRefreshedEvent> {
     private final RoleRepository roleRepository;
     private final UserRepository userRepository;
@@ -45,10 +47,10 @@ public class UserSeeder implements ApplicationListener<ContextRefreshedEvent> {
         }
 
         var user = new User();
-        user.setName(user.getName());
-        user.setLastname(user.getLastname());
-        user.setEmail(user.getEmail());
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.setName(basicUser.getName());
+        user.setLastname(basicUser.getLastname());
+        user.setEmail(basicUser.getEmail());
+        user.setPassword(passwordEncoder.encode(basicUser.getPassword()));
         user.setRole(optionalRole.get());
 
         userRepository.save(user);
