@@ -41,7 +41,7 @@ public class ProductRestController {
         return ResponseEntity.ok(savedProduct);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public Product getProductById(@PathVariable Long id) {
         return ProductRepository.findById(id).orElseThrow(RuntimeException::new);
     }
@@ -60,7 +60,15 @@ public class ProductRestController {
                     existingProduct.setDescription(product.getDescription());
                     existingProduct.setPrice(product.getPrice());
                     existingProduct.setStockSize(product.getStockSize());
-                    existingProduct.setCategory(product.getCategory());
+
+                    Optional<Category> optionalCategory = CategoryRepository.findByName(product.getCategory().getName());
+
+                    if (optionalCategory.isEmpty()){
+                        return null;
+                    }
+
+                    existingProduct.setCategory(optionalCategory.get());
+
                     return ProductRepository.save(existingProduct);
                 })
                 .orElseGet(() -> {
@@ -69,7 +77,7 @@ public class ProductRestController {
                 });
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping( "/{id}")
     @PreAuthorize("hasRole('SUPER_ADMIN')")
     public void deleteProduct(@PathVariable Long id) {
         ProductRepository.deleteById(id);
