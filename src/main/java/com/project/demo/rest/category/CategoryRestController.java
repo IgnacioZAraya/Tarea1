@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/categories")
 public class CategoryRestController {
     @Autowired
     private CategoryRepsository CategoryRepsository;
 
     @GetMapping
-    @PreAuthorize("hasAnyRole('ADMIN', 'SUPER_ADMIN')")
+    @PreAuthorize("hasAnyRole('USER', 'SUPER_ADMIN')")
     public List<Category> getAllCategories() {return CategoryRepsository.findAll();}
 
     @PostMapping
@@ -26,12 +26,12 @@ public class CategoryRestController {
     }
 
     @GetMapping("/{id}")
-    public Category getProductById(@PathVariable Long id) {
+    public Category getCategoryById(@PathVariable Long id) {
         return CategoryRepsository.findById(id).orElseThrow(RuntimeException::new);
     }
 
-    @GetMapping("/filterByName/{name}")
-    public List<Category> getUserByCharacter(@PathVariable String name) {
+    @GetMapping("/filterByCharacter/{name}")
+    public List<Category> getCategoryByCharacter(@PathVariable String name) {
         return CategoryRepsository.findCategoriesWithCharacterInName(name);
     }
 

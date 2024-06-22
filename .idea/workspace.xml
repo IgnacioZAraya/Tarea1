@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b91fdb0-1ed0-477a-b5c9-e0170b81ad28" name="Changes" comment="" />
+    <list default="true" id="2b91fdb0-1ed0-477a-b5c9-e0170b81ad28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/product/ProductRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/rest/product/ProductRestController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,15 +42,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="CategoryCRUD" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,31 +63,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Cenfotec/7 Cuatri/Proyecto 3/RESTAPICLASE",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15459883",
-    "project.structure.side.proportion": "0.50574714",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UserCRUD&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Cenfotec/4 Cuatri/Diseño y Construc. de Componentes/IgnacioZelada_Examen3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15459883&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.50574714&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.project.demo.rest.category" />
@@ -106,6 +120,11 @@
       <workItem from="1718698574638" duration="616000" />
       <workItem from="1718767900190" duration="653000" />
       <workItem from="1718822621639" duration="8603000" />
+      <workItem from="1718833340572" duration="4918000" />
+      <workItem from="1718910341771" duration="5794000" />
+      <workItem from="1718917774902" duration="1160000" />
+      <workItem from="1718941363152" duration="11844000" />
+      <workItem from="1718985938441" duration="2059000" />
     </task>
     <task id="LOCAL-00001" summary="Product Object">
       <option name="closed" value="true" />
@@ -179,7 +198,87 @@
       <option name="project" value="LOCAL" />
       <updated>1718833139761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1718833397056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718833397056</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Role enum and seeders fix + category and product controller modification">
+      <option name="closed" value="true" />
+      <created>1718833955092</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718833955092</updated>
+    </task>
+    <task id="LOCAL-00012" summary="category controller fix">
+      <option name="closed" value="true" />
+      <created>1718834000563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718834000563</updated>
+    </task>
+    <task id="LOCAL-00013" summary="category and product controller fix">
+      <option name="closed" value="true" />
+      <created>1718834328430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718834328430</updated>
+    </task>
+    <task id="LOCAL-00014" summary="category and product controller fix 2">
+      <option name="closed" value="true" />
+      <created>1718834561115</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718834561115</updated>
+    </task>
+    <task id="LOCAL-00015" summary="category and product controller fix 3">
+      <option name="closed" value="true" />
+      <created>1718838568839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718838568839</updated>
+    </task>
+    <task id="LOCAL-00016" summary="User Seeder">
+      <option name="closed" value="true" />
+      <created>1718911591773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718911591773</updated>
+    </task>
+    <task id="LOCAL-00017" summary="User and Product fix 3">
+      <option name="closed" value="true" />
+      <created>1718911664615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718911664615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="General Fixes 1">
+      <option name="closed" value="true" />
+      <created>1718946636809</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718946636809</updated>
+    </task>
+    <task id="LOCAL-00019" summary="General Fixes 2">
+      <option name="closed" value="true" />
+      <created>1718951224298</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718951224298</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +305,16 @@
     <MESSAGE value="Category Controller" />
     <MESSAGE value="Files" />
     <MESSAGE value="Category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Role enum and seeders fix + category and product controller modification" />
+    <MESSAGE value="category controller fix" />
+    <MESSAGE value="category and product controller fix" />
+    <MESSAGE value="category and product controller fix 2" />
+    <MESSAGE value="category and product controller fix 3" />
+    <MESSAGE value="User Seeder" />
+    <MESSAGE value="User and Product fix 3" />
+    <MESSAGE value="General Fixes 1" />
+    <MESSAGE value="General Fixes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="General Fixes 2" />
   </component>
 </project>
